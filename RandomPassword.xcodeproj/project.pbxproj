@@ -11,6 +11,8 @@
 		30B748091AE6087100ACB3C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B748081AE6087100ACB3C2 /* Images.xcassets */; };
 		30B7480C1AE6087100ACB3C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B7480A1AE6087100ACB3C2 /* MainMenu.xib */; };
 		30B748181AE6087100ACB3C2 /* RandomPasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B748171AE6087100ACB3C2 /* RandomPasswordTests.swift */; };
+		30B748231AE60C0D00ACB3C2 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B748211AE60C0D00ACB3C2 /* MainWindowController.swift */; };
+		30B748241AE60C0D00ACB3C2 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B748221AE60C0D00ACB3C2 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		30B748111AE6087100ACB3C2 /* RandomPasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B748161AE6087100ACB3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30B748171AE6087100ACB3C2 /* RandomPasswordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPasswordTests.swift; sourceTree = "<group>"; };
+		30B748211AE60C0D00ACB3C2 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		30B748221AE60C0D00ACB3C2 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				30B748061AE6087100ACB3C2 /* AppDelegate.swift */,
+				30B748211AE60C0D00ACB3C2 /* MainWindowController.swift */,
+				30B748221AE60C0D00ACB3C2 /* MainWindowController.xib */,
 				30B748081AE6087100ACB3C2 /* Images.xcassets */,
 				30B7480A1AE6087100ACB3C2 /* MainMenu.xib */,
 				30B748041AE6087100ACB3C2 /* Supporting Files */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B748091AE6087100ACB3C2 /* Images.xcassets in Resources */,
+				30B748241AE60C0D00ACB3C2 /* MainWindowController.xib in Resources */,
 				30B7480C1AE6087100ACB3C2 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B748231AE60C0D00ACB3C2 /* MainWindowController.swift in Sources */,
 				30B748071AE6087100ACB3C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
