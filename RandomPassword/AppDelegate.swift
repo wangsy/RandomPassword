@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Create a window controller with a XIB file of the same name
-        let mainWindowController = MainWindowController(windowNibName: "MainWindowController")
+        let mainWindowController = MainWindowController()
         // Put the window of the window controller on screen
         mainWindowController.showWindow(self)
         // Set the property to point to the window controller

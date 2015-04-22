@@ -12,6 +12,10 @@ class MainWindowController: NSWindowController {
 
     @IBOutlet weak var textField: NSTextField!
     
+    override var windowNibName: String? {
+        return "MainWindowController"
+    }
+    
     override func windowDidLoad() {
         super.windowDidLoad()
 
@@ -19,8 +23,11 @@ class MainWindowController: NSWindowController {
     }
     
     @IBAction func generatePassword(sender: AnyObject) {
-        // Tell the text field what to display
-        textField.stringValue = "button clicked"
+        
+        let length = 8
+        let password = generateRandomString(length)
+
+        textField.stringValue = password
     }
     
 }
